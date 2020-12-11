@@ -6,8 +6,8 @@
 <h3>key값을 입력한다</h3>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934045-61a8bb00-3c20-11eb-8cfc-7847c447f342.jpg">
 
-<h3>key값이 암호화 된 결과</h3>
+<h3>key값을 입력 후 암호화 버튼을 누른 후 암호화 된 결과</h3>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934054-64a3ab80-3c20-11eb-93b1-4da23ca62de4.jpg">
 
-<h3>암호화된 key값을 복호화한 결과</h3>
+<h3>암호화된 key값을 복호화 버튼을 누른후 복호화한 결과</h3>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934058-67060580-3c20-11eb-9ceb-3bc766a5db41.jpg">
