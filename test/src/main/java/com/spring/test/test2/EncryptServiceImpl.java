@@ -7,7 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class EncryptServiceImpl implements EncryptService {
 	
-	@Override//암호화
+	@Override
+	//암호화
 	public String encStr(String key) {
 		StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
 		encryptor.setPassword("somePassword"); 
@@ -15,13 +16,10 @@ public class EncryptServiceImpl implements EncryptService {
 		encryptor.setSaltGenerator(new StringFixedSaltGenerator("someFixedSalt"));
 		String encKey = encryptor.encrypt(key);
 		return encKey;
-		
-
-
-		
-	}
 	
-	@Override //복호화
+	}
+	@Override 
+	//복호화
 	public String decStr(String encStr) {
 		StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
 		encryptor.setPassword("somePassword");
