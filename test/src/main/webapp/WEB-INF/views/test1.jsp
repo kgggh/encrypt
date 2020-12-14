@@ -1,9 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>로그인</title>
+<title>test1</title>
 <style type="text/css">
 
 .form{
@@ -14,19 +15,17 @@
 
 </style>
 <script type="text/javascript">
-	var id = "${id}"
-	var password = "${password}"
 
-	
 </script>
 </head>
 <body>
 <div class="form">
 	<form action="login" method="post">
-		<label>아이디 <input type="text" name="id"></label><br>
-		<label>비밀번호 <input type="password" name="password"></label><br>
+		<p>아이디 <input type="text" name="id"><p>
+		<p>비밀번호 <input type="password" name="password"><p>
 		<input type="submit" value="로그인">
 	</form>
+	<a href="home" >목록으로</a>
 </div>
 </body>
 </html>

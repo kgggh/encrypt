@@ -9,24 +9,28 @@ public class EncryptServiceImpl implements EncryptService {
 	
 	@Override
 	//암호화
-	public String encStr(String key) {
+	public String encStr(String key)throws Exception {
 		StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
-		encryptor.setPassword("somePassword"); 
+		encryptor.setPassword("test"); 
 		encryptor.setAlgorithm("PBEWithMD5AndDES");
-		encryptor.setSaltGenerator(new StringFixedSaltGenerator("someFixedSalt"));
 		String encKey = encryptor.encrypt(key);
 		return encKey;
-	
+		
 	}
 	@Override 
 	//복호화
-	public String decStr(String encStr) {
+	public String decStr(String encStr)throws Exception {
 		StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
-		encryptor.setPassword("somePassword");
+		encryptor.setPassword("test");
 		encryptor.setAlgorithm("PBEWithMD5AndDES");
-		encryptor.setSaltGenerator(new StringFixedSaltGenerator("someFixedSalt"));
 		String decStr = encryptor.decrypt(encStr);
 		return decStr;
+	}
+	@Override
+	public String PBEWithMD5AndDES(String key, String encStr) throws Exception {
+		
+		
+		return null;
 	}
 
 }

@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>코딩문제</title>
 </head>
 <body>
-  	<h1>코딩테스트</h1>
+  	<h1>코딩문제</h1>
   	<p><a href="test1">코딩문제1</a></p>
   	<p><a href="test2">코딩문제2</a></p>
 </body>

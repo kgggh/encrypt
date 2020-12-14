@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>test2</title>
+<title>암호화</title>
 <style type="text/css">
 .form{
 	text-align: center;
@@ -21,6 +21,9 @@ div{
 	padding-right: 10px;
 	
 }
+input {
+	border: 1px solid black; 
+}
 #div1 input{
 	width: 200px;
 	height: 200px;
@@ -33,10 +36,7 @@ div{
 }
 </style>
 <script type="text/javascript">
-	var message = '${msg}'; 
-	var returnUrl = '${url}'; 
-	alert(mag); 
-	document.location.href = url; 
+	
 </script>
 </head>
 <body>
@@ -45,7 +45,7 @@ div{
 		<p>key <input type="text" placeholder="key" name="key"></p>
 		<div id="div1">
 			<p>input</p>
-			<input type="text" value="${key }" readonly="readonly">
+			<input type="text" value="<c:out value="${key }"/>" readonly="readonly">
 		</div>
 		
 		<div id="btn">
@@ -55,11 +55,10 @@ div{
 		
 		<div id="div3">
 			<p>output</p>
-			<input type="text" value="${encrypt}" readonly="readonly">
-			
-			
+			<input type="text" value="<c:out value="${encrypt}"/>"readonly="readonly">
 		</div>
 	</form>
+	<a href="home" >목록으로</a>
 </div>
 </body>
 
