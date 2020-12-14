@@ -25,6 +25,7 @@
 
 
 # AES-256,SH-A256 암복호화 로그인
+
 <ul>
   <li>아이디,패스워드 틀렸을 시</li>
   <br><br><br>
@@ -39,7 +40,7 @@
 
   <li>AES-256으로 암호화된 아이디 패스워드 값을 복호화(패스워드는 SHA-256으로 한번 더 암호화 진행)-> 암호화된 로그인 정보값을 복호화 콘솔로 확인</li>
   <br><br><br>
-  <img width ="100%" src="https://user-images.githubusercontent.com/68227318/102083914-ac604800-3e57-11eb-9b17-3e4893b82189.jpg">
+  <img width ="100%" src="https://user-images.githubusercontent.com/68227318/102124299-6f15ad80-3e8b-11eb-91e8-d430c00685f5.jpg">
 </ul>
 
 
