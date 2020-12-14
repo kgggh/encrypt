@@ -17,7 +17,7 @@
   <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934054-64a3ab80-3c20-11eb-93b1-4da23ca62de4.jpg">
   <br><br><br>
 
-  <li>암호화된 key값을 복호화 버튼을 누른후 복호화한 결과/li>
+  <li>암호화된 key값을 복호화 버튼을 누른후 복호화한 결과</li>
   <br><br><br>
   <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934058-67060580-3c20-11eb-9ceb-3bc766a5db41.jpg">
   <br><br><br>
