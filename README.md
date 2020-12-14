@@ -6,21 +6,22 @@
 <h3>StringFixedSaltGenerator를 사용해 고정된 salt값을 지정하면 암호화된 결과 값이 고정돼서 반환된다.</h3>
 <br><br><br><br><br>
 
-<p>key값을 입력한다</p>
+<ul>
+  <li><p>key값을 입력한다</li>
 <br><br><br>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934045-61a8bb00-3c20-11eb-8cfc-7847c447f342.jpg">
 <br><br><br>
 
-<p>key값을 입력 후 암호화 버튼을 누른 후 암호화 된 결과</p>
+ <li>key값을 입력 후 암호화 버튼을 누른 후 암호화 된 결과</li>
 <br><br><br>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934054-64a3ab80-3c20-11eb-93b1-4da23ca62de4.jpg">
 <br><br><br>
 
-<p>암호화된 key값을 복호화 버튼을 누른후 복호화한 결과</p>
+ <li>암호화된 key값을 복호화 버튼을 누른후 복호화한 결과/li>
 <br><br><br>
 <img width ="100%" src="https://user-images.githubusercontent.com/68227318/101934058-67060580-3c20-11eb-9ceb-3bc766a5db41.jpg">
 <br><br><br>
-
+</ul>
 
 
 # AES-256,SH-A256 암복호화 로그인
